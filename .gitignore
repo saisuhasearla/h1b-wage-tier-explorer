@@ -1,0 +1,19 @@
+# Raw data files (large, redistributable from source instead)
+data/raw/*.xlsx
+data/raw/*.pdf
+
+# Keep processed outputs needed for the app to run
+# (parquet files, model files, images are intentionally NOT excluded)
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment
+venv/
+.env
